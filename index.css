@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}  
+.celebration-button {
+    background-color: #ff6384;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .celebration-button:hover {
+    background-color: #ff2058;
+  }
+  
+  .paper {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #f5d442;
+  }
+  
+  @keyframes throwPaper {
+    0% {
+      top: 100%;
+      transform: rotate(0deg);
+    }
+    100% {
+      top: 0%;
+      transform: rotate(360deg);
+    }
+  }
